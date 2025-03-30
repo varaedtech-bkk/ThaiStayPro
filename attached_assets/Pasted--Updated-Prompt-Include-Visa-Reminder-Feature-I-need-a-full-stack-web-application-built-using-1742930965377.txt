@@ -1,0 +1,31 @@
+
+
+🔹 Updated Prompt (Include Visa Reminder Feature) 
+I need a full-stack web application built using Next.js (React + TypeScript) for the frontend and Node.js (Express + Prisma + PostgreSQL) for the backend. 
+📌 Core Idea:
+This app will provide reminder services where users can set up notifications for important dates like visa expiry, passport renewal, bill payments, and personal tasks.
+
+🔹 Core Features
+1️⃣ User Features (Frontend + Backend)
+✅ User Authentication (Signup, Login, Forgot Password) using JWT & bcrypt ✅ User Dashboard (View & Manage Reminders) ✅ Create, Edit, Delete Reminders ✅ Visa Expiry Tracking: Users can enter their visa details (e.g., visa type, expiry date, country) and receive alerts before expiration ✅ Push Notifications for Visa & Other Reminders ✅ Advanced Notification Options (Email, SMS for Pro users) ✅ Free & Pro Plans:
+* Free Plan: Limited reminders, basic notifications
+* Pro Plan: Unlimited reminders, email & SMS alerts
+2️⃣ Payment System (Pro Plan Upgrade)
+✅ Stripe Integration for subscription payments ✅ User Subscription Tracking in PostgreSQL ✅ Auto-Renewal Handling for Pro Plan
+3️⃣ Admin Dashboard (Next.js + API)
+✅ View Total Users, Pro Users, Free Users ✅ Track Revenue & Payment History ✅ Monitor Active Users & Reminders ✅ Visa Reminder Statistics (How many users set visa-related reminders, upcoming expirations, etc.)
+4️⃣ Database Design (PostgreSQL + Prisma ORM)
+✅ Users Table: Stores user accounts ✅ Reminders Table: Stores user reminders ✅ Visa Table: Stores visa-related reminders with fields like:
+* visa_type (Tourist, Work, Student, etc.)
+* expiry_date
+* country ✅ Payments Table: Tracks subscription payments
+5️⃣ Deployment & Configuration
+✅ Backend on Replit (Express API, Prisma ORM, PostgreSQL) ✅ Frontend on Vercel (Next.js) ✅ Secure API Routes with Authentication
+
+🔹 Additional Notes  
+Please make sure to include:
+* Visa Reminder Feature (Users can input visa details & get expiry alerts)
+* User-Friendly UI for Adding Visa Details
+* Option for Admins to See Visa Expiry Trends
+
+
